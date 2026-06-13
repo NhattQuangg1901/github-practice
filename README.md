@@ -34,12 +34,12 @@ Khi bước vào giai đoạn Vibe Code với AI (sử dụng GitHub Copilot, Cu
 * Bước 3 (Commit về máy): Tải hoặc sao chép code từ VSCode về máy local. Chạy git diff để kiểm tra lại. Commit rõ ràng: git commit -m "Feat: Add Google Auth (via Vibe Code)".
 3. Quy tắc an toàn khi Chia nhánh (Branching): Luôn bắt AI làm việc trên nhánh tính năng (feature), không code thẳng vào nhánh chính (main). Kiểm thử (Test): Chạy thử code dưới máy local thấy ổn định rồi mới Merge vào nhánh chính.
 # **5. Danh sách các lệnh Git đã sử dụng**
-git init: Khởi tạo một kho lưu trữ Git cục bộ mới.
-git clone <url>: Sao chép toàn bộ mã nguồn và lịch sử của kho lưu trữ từ GitHub về máy cá nhân.
-git status: Kiểm tra trạng thái hiện tại của các file.
-git add <tên_file>: Đưa các thay đổi của tệp tin vào vùng đệm (Staging Area).
-git commit -m "Thông điệp": Ghi lại trạng thái mã nguồn vào lịch sử Git kèm mô tả chi tiết.
-git push origin <tennhanh>: Đẩy các commit mới từ máy cục bộ lên GitHub.
-git pull origin <tennhanh>: Kéo và cập nhật thay đổi mới nhất từ GitHub về máy.
-git log: Xem lại toàn bộ lịch sử danh sách các commit đã thực hiện trong quá khứ.
-git revert <ma>: Tạo commit mới mang nội dung ngược lại so với commit cũ nhằm hủy bỏ code lỗi một cách an toàn.
+* git init: Khởi tạo một kho lưu trữ Git cục bộ mới.
+* git clone <url>: Sao chép toàn bộ mã nguồn và lịch sử của kho lưu trữ từ GitHub về máy cá nhân.
+* git status: Kiểm tra trạng thái hiện tại của các file.
+* git add <tên_file>: Đưa các thay đổi của tệp tin vào vùng đệm (Staging Area).
+* git commit -m "Thông điệp": Ghi lại trạng thái mã nguồn vào lịch sử Git kèm mô tả chi tiết.
+* git push origin <tennhanh>: Đẩy các commit mới từ máy cục bộ lên GitHub.
+* git pull origin <tennhanh>: Kéo và cập nhật thay đổi mới nhất từ GitHub về máy.
+* git log: Xem lại toàn bộ lịch sử danh sách các commit đã thực hiện trong quá khứ.
+* git revert <ma>: Tạo commit mới mang nội dung ngược lại so với commit cũ nhằm hủy bỏ code lỗi một cách an toàn.

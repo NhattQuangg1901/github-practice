@@ -2,6 +2,7 @@
 ## **1. Thông tin học viên & Dự án**
 * Khóa học: Git Foundations (Microsoft Learn - GitHub Foundations)
 * Học viên: Nguyễn Đắc Nhật Quang
+* Mã sinh viên: 25E1020044
 * Tên kho lưu trữ (Repository): github-practice
 ## **2. Quá trình học tập**
 Được chia làm 2 giai đoạn chính dựa theo tài liệu Microsoft Learn:
